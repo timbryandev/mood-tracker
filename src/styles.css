@@ -1,0 +1,31 @@
+.App {
+  font-family: "Courier New", monospace;
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-family: "Arial";
+}
+
+.mood-form__fieldset {
+  border: transparent;
+}
+
+.mood-form__button {
+  padding: 5px 10px;
+  margin: 5px;
+  border-color: transparent;
+}
+
+.mood-form__button--chosen {
+  background: orange;
+}
+
+.mood-form__button--submit {
+  background: green;
+  color: white;
+}
